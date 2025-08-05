@@ -16,8 +16,10 @@
 </head>
 
 <body>
+
     <main>
-        <aside>
+
+        <aside class="sidebar" data-sidebar>
             <div class="sidebar-info">
                 <figure class="avatar-box">
                     <img src="./assets/images/my-avatar.png" alt="Benallou Abdelaziz" width="80">
@@ -25,9 +27,7 @@
 
                 <div class="info-content">
                     <h1 class="name" title="Benallou Abdelaziz">Benallou Abdelaziz</h1>
-                    <p class="title">Web Developer</p>
-                    <br>
-                    <p class="title">Network Engineer</p>
+                    <p class="title">Web Developer && Network Engineer</p>
                 </div>
 
                 <button class="info_more-btn" data-sidebar-btn>
@@ -84,11 +84,13 @@
                 <div class="separator"></div>
 
                 <ul class="social-list">
+
                     <li class="social-item">
-                        <a href="#" class="social-link">
+                        <a href="https://www.facebook.com/share/1FEhHAUwW5/" class="social-link">
                             <ion-icon name="logo-facebook"></ion-icon>
                         </a>
                     </li>
+
                     <li class="social-item">
                         <a href="#" class="social-link">
                             <ion-icon name="logo-twitter"></ion-icon>
@@ -96,10 +98,17 @@
                     </li>
 
                     <li class="social-item">
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-instagram"></ion-icon>
+                        <a href="https://github.com/patrikjohn14" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </li>
+
+                    <li class="social-item">
+                        <a href="https://t.me/anonima_majestro" class="social-link">
+                            <ion-icon name="paper-plane"></ion-icon>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </aside>
@@ -117,20 +126,12 @@
                     </li>
 
                     <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Portfolio</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Blog</button>
-                    </li>
-
-                    <li class="navbar-item">
                         <button class="navbar-link" data-nav-link>Contact</button>
                     </li>
                 </ul>
             </nav>
 
-            <article class="about" data-page="about">
+            <article class="about active" data-page="about">
 
                 <header>
                     <h2 class="h2 article-title">About me</h2>
@@ -245,7 +246,7 @@
 
             </article>
 
-            <article class="resume active" data-page="resume">
+            <article class="resume" data-page="resume">
                 <header>
                     <h2 class="h2 article-title">Resume</h2>
                 </header>
@@ -261,10 +262,21 @@
                     </div>
 
                     <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Primary School Al-Ikhwa Belal, Sidi Ali Mellal, Tiaret
+                            </h4>
+                            <span>2009 — 2015</span>
+                            <p class="timeline-text">
+                                Attended primary school at Ibtida'iyat Al-Ikhwa Belal in Sidi Ali Mellal, Tiaret. I was
+                                known for being respectful, hardworking, and disciplined. During this period, I
+                                developed strong study habits and a deep curiosity for learning across various subjects.
+                            </p>
+                        </li>
 
                         <li class="timeline-item">
 
-                            <h4 class="h4 timeline-item-title">Bcheikh Abdelkader Middle School – Sidi Ali Mellal, Tiaret, Algeria</h4>
+                            <h4 class="h4 timeline-item-title">Bcheikh Abdelkader Middle School – Sidi Ali Mellal,
+                                Tiaret, Algeria</h4>
 
                             <span>2015 — 2019</span>
 
@@ -278,7 +290,8 @@
 
                         <li class="timeline-item">
 
-                            <h4 class="h4 timeline-item-title">El Hadj Benalla High School – Sidi Ali Mellal, Tiaret, Algeria</h4>
+                            <h4 class="h4 timeline-item-title">El Hadj Benalla High School – Sidi Ali Mellal, Tiaret,
+                                Algeria</h4>
 
                             <span>2019 — 2022</span>
 
@@ -292,8 +305,23 @@
                             </p>
                         </li>
 
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Ibn Khaldoun University, Tiaret, Algeria</h4>
 
+                            <span>2022 — 2024</span>
+                            <p class="timeline-text">
+                                Completed a foundational program in computer science, studying core subjects such as
+                                computer networks, algorithms, operating systems, cryptography, and computational
+                                mathematics. This stage focused on building a strong theoretical and practical base.
+                            </p>
 
+                            <span>2024 — 2025</span>
+                            <p class="timeline-text">
+                                Specialized in Information Systems and Software Engineering, with emphasis on software
+                                design, system architecture, and the development and management of complex information
+                                systems.
+                            </p>
+                        </li>
 
                         <li class="timeline-item">
                             <h4 class="h4 timeline-item-title">Ibn Khaldoun University – Foreign Language Support Center
@@ -303,6 +331,17 @@
                                 I studied at the Foreign Language Support Center at Ibn Khaldoun University in Tiaret,
                                 where I learned English grammar, writing, listening, and basic conversation skills,
                                 reaching a B1 level.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Self-Learning and Personal Development</h4>
+                            <p class="timeline-text">
+                                I dedicate a significant part of my time to self-learning at home, especially through
+                                online courses and YouTube tutorials. I focus on exploring basic design concepts and
+                                various tools, systems, and technologies aligned with current market demands. This
+                                independent learning journey supports my continuous growth and adaptability in the tech
+                                field.
                             </p>
                         </li>
 
@@ -323,47 +362,86 @@
 
                         <li class="timeline-item">
 
-                            <h4 class="h4 timeline-item-title">Creative director</h4>
+                            <h4 class="h4 timeline-item-title">Mobile App Developer (Flutter)</h4>
 
-                            <span>2015 — Present</span>
+                            <span>1.5 years experience</span>
 
                             <p class="timeline-text">
-                                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos
-                                dolores et qvuas
-                                molestias
-                                exceptur.
+                                Developed and tested mobile applications using Flutter, focusing on creating smooth and
+                                responsive user interfaces. Gained practical experience in managing state, connecting
+                                APIs, and deploying apps on Android. Continuously improving my skills through hands-on
+                                projects and problem-solving.
                             </p>
-
                         </li>
 
                         <li class="timeline-item">
 
-                            <h4 class="h4 timeline-item-title">Art director</h4>
+                            <h4 class="h4 timeline-item-title">Linux Systems Administration</h4>
 
-                            <span>2013 — 2015</span>
+                            <span>2 years experience</span>
 
                             <p class="timeline-text">
-                                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti,
-                                quos dolores et
-                                quas molestias
-                                exceptur.
+                                Developed solid experience working with various Linux distributions, focusing on server
+                                configuration, command-line tools, and system maintenance. Handled tasks such as user
+                                and permission management, package installation, basic networking, and securing server
+                                environments. Continuously exploring advanced Linux tools and practices.
                             </p>
-
                         </li>
 
                         <li class="timeline-item">
 
-                            <h4 class="h4 timeline-item-title">Web designer</h4>
+                            <h4 class="h4 timeline-item-title">Networking & Device Configuration</h4>
 
-                            <span>2010 — 2013</span>
+                            <span>2 years</span>
 
                             <p class="timeline-text">
-                                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti,
-                                quos dolores et
-                                quas molestias
-                                exceptur.
+                                Gained practical experience over two years in basic network setup and configuration,
+                                including installing and managing routers and switches for small businesses and public
+                                institutions. Focused on establishing local networks, ensuring connectivity, and
+                                optimizing device settings to maintain stable and secure operations.
                             </p>
+                        </li>
 
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Information Systems Design & Server Architecture</h4>
+
+                            <span>1 year</span>
+
+                            <p class="timeline-text">
+                                Gained foundational experience in designing basic information systems and structuring
+                                server-side architectures using REST APIs. Focused on organizing data flow, backend
+                                communication, and deploying modular, maintainable systems aligned with modern software
+                                development practices.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Wireless Network Pentesting & System Analysis</h4>
+
+                            <span>1 year</span>
+
+                            <p class="timeline-text">
+                                Developed practical skills in wireless network penetration testing and system
+                                vulnerability assessment. Used tools like Nmap and Wireshark for network scanning,
+                                traffic analysis, and identifying security weaknesses in Wi-Fi networks and local
+                                infrastructures.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Mobile Shop Assistant</h4>
+
+                            <span>3 months</span>
+
+                            <p class="timeline-text">
+                                Gained hands-on experience working in a mobile phone store, handling basic store
+                                management, debt tracking, and maintaining respectful and professional customer
+                                interactions. Developed a good understanding of day-to-day operations and customer
+                                service.
+                            </p>
                         </li>
 
                     </ol>
@@ -371,79 +449,116 @@
                 </section>
 
                 <section class="skill">
-
-                    <h3 class="h3 skills-title">My skills</h3>
-
+                    <h3 class="h3 skills-title">My Skills</h3>
                     <ul class="skills-list content-card">
 
                         <li class="skills-item">
-
                             <div class="title-wrapper">
-                                <h5 class="h5">Web design</h5>
-                                <data value="80">80%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">Graphic design</h5>
+                                <h5 class="h5">Mobile App Development (Flutter)</h5>
                                 <data value="70">70%</data>
                             </div>
-
                             <div class="skill-progress-bg">
                                 <div class="skill-progress-fill" style="width: 70%;"></div>
                             </div>
-
                         </li>
 
                         <li class="skills-item">
-
                             <div class="title-wrapper">
-                                <h5 class="h5">Branding</h5>
-                                <data value="90">90%</data>
+                                <h5 class="h5">Computer Networks & Configuration</h5>
+                                <data value="80">80%</data>
                             </div>
-
                             <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 90%;"></div>
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
                             </div>
-
                         </li>
 
                         <li class="skills-item">
-
                             <div class="title-wrapper">
-                                <h5 class="h5">WordPress</h5>
+                                <h5 class="h5">Linux Systems & Server Administration</h5>
+                                <data value="75">75%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Wireless Network Penetration Testing</h5>
+                                <data value="60">60%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Information Systems Design</h5>
+                                <data value="55">55%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 55%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Basic Store & Inventory Management</h5>
                                 <data value="50">50%</data>
                             </div>
-
                             <div class="skill-progress-bg">
                                 <div class="skill-progress-fill" style="width: 50%;"></div>
                             </div>
-
                         </li>
-
                     </ul>
-
                 </section>
 
             </article>
 
+            <article class="contact" data-page="contact">
 
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13276.362411189586!2d1.3130579!3d35.3713176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x127f5f227edb7f75%3A0x3ce33c3b3cb46a8a!2sTiaret!5e0!3m2!1sen!2sdz!4v1692638812345!5m2!1sen!2sdz"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input>
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
 
         </div>
-
     </main>
 
     <script src="./assets/js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 
 </body>
 
